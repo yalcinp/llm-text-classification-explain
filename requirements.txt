@@ -1,0 +1,12 @@
+transformers==4.43.3
+datasets==2.20.0
+accelerate>=0.33.0
+evaluate==0.4.2
+scikit-learn==1.5.1
+torch>=2.2
+tqdm
+numpy
+pandas
+matplotlib
+shap==0.46.0
+lime==0.2.0.1
