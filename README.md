@@ -12,8 +12,17 @@ Additionally, it provides **explainability** by applying SHAP and LIME to highli
 - LIME
 - PyTorch
 
+## 🎯 Explainability Demo
+
+We provide a Jupyter notebook to demonstrate explainability:
+
+```bash
+jupyter notebook notebooks/explainability_demo.ipynb
+```
+
 ## ⚙️ Installation
 ```bash
 git clone https://github.com/yalcinp/llm-text-classification-explain.git
 cd llm-text-classification-explain
 pip install -r requirements.txt
+```
