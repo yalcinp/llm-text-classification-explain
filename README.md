@@ -1,18 +1,19 @@
-# Multimodal Image–Text Retrieval (CLIP)
+# IMDb Sentiment Classification with DistilBERT + Explainability (SHAP/LIME)
 
-This is a minimal demo of **multimodal retrieval** using [OpenAI's CLIP](https://github.com/openai/CLIP).
-It allows you to:
-- Search images given a text query (Text → Image).
-- Search captions given an image (Image → Text).
+## 🎯 Project Goal
+This project classifies IMDb movie reviews as **positive** or **negative** using DistilBERT.  
+Additionally, it provides **explainability** by applying SHAP and LIME to highlight which words influence the model’s decision.
 
-Built with:
-- HuggingFace `transformers` (CLIPModel + CLIPProcessor)
-- `scikit-learn` Nearest Neighbors
-- `streamlit` for a simple UI
+## 🛠 Tech Stack
+- Python 3.9+
+- HuggingFace Transformers (DistilBERT)
+- scikit-learn
+- SHAP
+- LIME
+- PyTorch
 
----
-
-## 🚀 Quickstart
-1. Clone repo and install requirements:
+## ⚙️ Installation
 ```bash
+git clone https://github.com/yalcinp/llm-text-classification-explain.git
+cd llm-text-classification-explain
 pip install -r requirements.txt
